@@ -21,7 +21,7 @@
     "build": "yarn tsc",
     "prepare": "yarn tsc",
     "test": "yarn build && yarn jest",
-    "postinstall": "yarn tsc"
+    "postinstall": "yarn install && yarn tsc"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
