@@ -20,7 +20,8 @@
   "scripts": {
     "build": "yarn tsc",
     "prepare": "yarn tsc",
-    "test": "yarn build && yarn jest"
+    "test": "yarn build && yarn jest",
+    "postinstall": "tsc"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
